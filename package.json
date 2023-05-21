@@ -1,0 +1,22 @@
+{
+  "name": "ts-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "start": "node .",
+    "prestart": "npm run lint && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
+  }
+}
